@@ -1,5 +1,7 @@
 # SpringBootStudentApp
 
+It works by this localhost address: http://localhost:8080/api/v1/student
+
 
 ### This is an application where the information can be stored from students more clearly. 
 ### All backend part was done on Spring framework with DataBase that was written in PostgresSQl
