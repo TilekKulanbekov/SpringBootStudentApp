@@ -29,8 +29,20 @@ public class StudentConfig {
                     LocalDate.of(2004, JANUARY, 5)
             );
 
+            Student asel = new Student(
+                    "Asel",
+                    "Asel.aiyzberk@gmail.com",
+                    LocalDate.of(2001, JANUARY, 18)
+            );
+
+            Student tilek = new Student(
+                    "Tilek",
+                    "Tilek.Brutus@gmail.com",
+                    LocalDate.of(2002, FEBRUARY, 8)
+            );
+
             repository.saveAll(
-                    List.of(mariam, alex)
+                    List.of(mariam, alex, asel, tilek)
             );
         };
     }

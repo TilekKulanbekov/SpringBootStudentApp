@@ -16,6 +16,14 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	<distributionManagement>
+		<repository>
+			<id>project-local</id>
+			<name>spring-boot-app</name>
+			<url>https://github.com/TilekKulanbekov/SpringBootStudentApp.git</url>
+		</repository>
+
+	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
